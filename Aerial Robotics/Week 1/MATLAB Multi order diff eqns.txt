@@ -1,0 +1,19 @@
+
+SOLVING MULTI ORDER DIFF EQNS
+EX1:
+function xdot=func(t,x)
+xdot= [x(2),7000 - 7*x(2) - 10*x(1)];
+
+xdot=xdot';
+
+
+Command window:
+>> [t,x] = ode45('func',[0 5],[5 3]);
+>> plot(t,x(:,1))
+
+
+Assignment 1:
+function 
+
+0
+
